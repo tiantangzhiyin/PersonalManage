@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/member_rank"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:hint="身份"/>
+    <TextView
+        android:id="@+id/member_name"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:hint="姓名"/>
+    <TextView
+        android:id="@+id/member_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="联系电话"/>
+    <Button
+        android:id="@+id/member_call"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:background="@android:drawable/ic_menu_call"/>
+    <Button
+        android:id="@+id/member_delete"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:background="@android:drawable/ic_menu_delete"/>
+
+</LinearLayout>

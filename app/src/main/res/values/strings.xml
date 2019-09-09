@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">个人管理</string>
+    <string name="title_project">科研项目</string>
+    <string name="title_culture">文体活动</string>
+    <string name="title_class">教学安排</string>
+    <string name="title_schedule">日常计划</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+</resources>

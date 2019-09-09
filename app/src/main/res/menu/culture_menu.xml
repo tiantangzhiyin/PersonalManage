@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/culture_choose_image"
+        android:title="添加图片"/>
+    <item
+        android:id="@+id/culture_submit"
+        android:title="提交"/>
+    <item
+        android:id="@+id/culture_delete"
+        android:title="删除"/>
+</menu>

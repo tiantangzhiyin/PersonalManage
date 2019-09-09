@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edit_member_rank"
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="身份"/>
+        <EditText
+            android:id="@+id/edit_member_name"
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="姓名"/>
+        <EditText
+            android:id="@+id/edit_member_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:hint="联系电话"/>
+        <Button
+            android:id="@+id/but_add_member"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_menu_add"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_member"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
